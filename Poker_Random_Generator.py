@@ -1,10 +1,5 @@
 import random
 
-
-def random_number(l1,l2):
-    
-    return random.randint(l1,l2)
-
 from tkinter import*
 
 root = Tk()
@@ -12,7 +7,6 @@ root.geometry("250x100")
 root.configure(bg="black")
 root.title("Poker_Random_Generator")
 root.grid()
-
 
 
 def std_poker():
